@@ -1,0 +1,29 @@
+//Authors: Carter Reynolds and Alazar Genene 2/26/17
+From test1.txt
+
+Instruction? Put page table for PID 0 into physical frame 0
+
+Mapped virtual address 0 (page 0) into physical frame 1
+Instruction? Put page table for PID 1 into physical frame 2
+
+Mapped virtual address 0 (page 0) into physical frame 3
+Instruction? Stored value 12 at virtual address 2 (physical address 18)
+Instruction? Stored value 16 at virtual address 4 (physical address 52)
+Instruction? The value 12 is at virtual address 2 (physical address 18)
+Instruction? The value 16 is at virtual address 4 (physical address 52)
+
+From test2.txt
+
+Instruction? Put page table for PID 0 into physical frame 0
+
+Mapped virtual address 0 (page 0) into physical frame 1
+Instruction? 
+Mapped virtual address 16 (page 1) into physical frame 2
+Instruction? 
+Mapped virtual address 32 (page 2) into physical frame 3
+Instruction? Swapped frame 2 to disk at offset 0
+
+Mapped virtual address 48 (page 3) into physical frame 2
+Instruction? Stored value 54 at virtual address 2 (physical address 18)
+Instruction? The value 54 is at virtual address 2 (physical address 18)
+
